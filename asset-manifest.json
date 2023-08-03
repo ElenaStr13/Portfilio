@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ElenaStr13.github.io/Portfilio/static/css/main.c317752e.css",
+    "main.js": "/ElenaStr13.github.io/Portfilio/static/js/main.67897f17.js",
+    "static/media/title-image.webp": "/ElenaStr13.github.io/Portfilio/static/media/title-image.598550c78a4d436c4907.webp",
+    "static/media/contactUs.webp": "/ElenaStr13.github.io/Portfilio/static/media/contactUs.35688157913bcb70152d.webp",
+    "static/media/slider1.webp": "/ElenaStr13.github.io/Portfilio/static/media/slider1.f22ae0d5fa0f01c65528.webp",
+    "static/media/Gilroy-Regular.woff": "/ElenaStr13.github.io/Portfilio/static/media/Gilroy-Regular.ebe86c0337572553acea.woff",
+    "static/media/Gilroy-Regular.woff2": "/ElenaStr13.github.io/Portfilio/static/media/Gilroy-Regular.f6c9931fabe5a6eb3307.woff2",
+    "static/media/Worksans.woff": "/ElenaStr13.github.io/Portfilio/static/media/Worksans.35b800445e1c251b52fe.woff",
+    "static/media/Worksans.woff2": "/ElenaStr13.github.io/Portfilio/static/media/Worksans.d596be7306c02c91d578.woff2",
+    "static/media/instagram.svg": "/ElenaStr13.github.io/Portfilio/static/media/instagram.b9c8ab4e8dcac106509845bfc7b7b259.svg",
+    "static/media/twitter.svg": "/ElenaStr13.github.io/Portfilio/static/media/twitter.dac2cbe6f8179ced51e33b478562cfe9.svg",
+    "static/media/lnkdn.svg": "/ElenaStr13.github.io/Portfilio/static/media/lnkdn.a7d8d4c6d3e4c91bfb160427e19aaded.svg",
+    "index.html": "/ElenaStr13.github.io/Portfilio/index.html",
+    "static/media/youtube.svg": "/ElenaStr13.github.io/Portfilio/static/media/youtube.79042e4af897870da123632cb965d73e.svg",
+    "static/media/facebook.svg": "/ElenaStr13.github.io/Portfilio/static/media/facebook.51b7804f8dbfae5ea026ca7591f8ce0e.svg",
+    "static/media/getFetch.cjs": "/ElenaStr13.github.io/Portfilio/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "static/media/row_white.webp": "/ElenaStr13.github.io/Portfilio/static/media/row_white.8fc110fad018d13ae58e.webp",
+    "main.c317752e.css.map": "/ElenaStr13.github.io/Portfilio/static/css/main.c317752e.css.map",
+    "main.67897f17.js.map": "/ElenaStr13.github.io/Portfilio/static/js/main.67897f17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c317752e.css",
+    "static/js/main.67897f17.js"
+  ]
+}

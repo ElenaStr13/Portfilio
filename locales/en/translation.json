@@ -1,0 +1,825 @@
+{
+    "titleOne": "main",
+    "description": {
+        "menu": {
+            "menuNav1": "Buy",
+            "navBuy": {
+                "numberOne": "Category number one",
+                "numberCategory": "Category",
+                "numberTwenty": "Category number twenty fife"
+            },
+            "menuNav2": "Blog",
+            "menuNav3": "About",
+            "menuNav4": "Contact"
+        },
+        "mainTitle": {
+            "textBefore": "Lorem ipsum",
+            "titlepart1": "Welcome home",
+            "titlepart2": "to",
+            "titlepart3": "luxury",
+            "bookToCons": "Book a consultation"
+        },
+        "mainCard": {
+            "title": "Lorem Ipsum ",
+            "text": "Dolorem apset"
+        },
+        "latestProject": [
+            {
+                "id": 1,
+                "image": "./image/main/Latest project-villas.webp",
+                "front": "Villas",
+                "back": "Villas",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+                "seeProject": "See project"
+            },
+            {
+                "id": 2,
+                "image": "./image/main/Latest project-last.webp",
+                "front": "Dubai",
+                "back": "Dubai",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+                "seeProject": "See project"
+            },
+            {
+                "id": 3,
+                "image": "./image/main/Latest project-houses.webp",
+                "front": "Houses",
+                "back": "Houses",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+                "seeProject": "See project"
+            },
+            {
+                "id": 4,
+                "image": "./image/main/Latest project-last.webp",
+                "front": "Villas",
+                "back": "Villas",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+                "seeProject": "See project"
+            },
+            {
+                "id": 5,
+                "image": "./image/main/Latest project-villas.webp",
+                "front": "Villas",
+                "back": "Villas",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+                "seeProject": "See project"
+            },
+            {
+                "id": 6,
+                "image": "./image/main/Latest project-last.webp",
+                "front": "Dubai",
+                "back": "Dubai",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+                "seeProject": "See project"
+            },
+            {
+                "id": 7,
+                "image": "./image/main/Latest project-houses.webp",
+                "front": "Houses",
+                "back": "Houses",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+                "seeProject": "See project"
+            },
+            {
+                "id": 8,
+                "image": "./image/main/Latest project-last.webp",
+                "front": "Villas",
+                "back": "Villas",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+                "seeProject": "See project"
+            }
+        ],
+        "latestProjects": {
+            "titleLatest": "Latest projects",
+            "navAll": "All",
+            "building": "Building",
+            "interior": "Interior",
+            "viewAll": "View all projects"
+        },
+        "mainVideo": {
+            "expertise": "Our expertise",
+            "titleExpertise": "'The best apartment in Dubai' we will find your dream",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh massa, euismod ut libero id, blandit posuere augue. Morbi porta volutpat diam egestas ultrices. Phasellus tempus fringilla neque, nec viverra orci tristique vel. In efficitur vehicula magna, varius pellentesque nisl vehicula vel. Aenean vel sem ac elit commodo finibus in nec massa. Nulla facilisi. Nulla vestibulum venenatis sollicitudin. Etiam auctor mollis justo eu tincidunt. Aliquam varius varius tortor. Cras id venenatis sem. Quisque ut risus ex. Sed et tempor massa. Praesent ac eros hendrerit, congue justo ac, molestie urna. Fusce nec neque vitae dolor dapibus elementum. Maecenas nec orci quis sem condimentum dapibus varius a lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "textFrame": "Don't limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.",
+            "frameAuthor": "Mery Kei Ash",
+            "text1": "Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus. Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam viverra ultrices est vitae suscipit. Pellentesque elementum purus non nisl pharetra consequat. Nunc in venenatis orci.",
+            "text2": "Vivamus non diam vel lorem efficitur mattis in gravida ante. Ut ullamcorper dapibus ante, eu tincidunt orci feugiat vel. Curabitur eget lectus lectus. Pellentesque malesuada, felis at accumsan interdum, nisl mi fermentum est, eu suscipit dui lorem a dui. Aliquam rhoncus risus in leo vestibulum efficitur. Suspendisse tortor quam, faucibus a lacinia a, bibendum vitae quam. Suspen disse et metus et orci rutrum dictum eu eu nibh. Suspendisse blandit in diam in rhoncus. Nam volutpat hendrerit enim, sed aliquet quam gravida at. Nullam dictum sagittis nisi, eu porta sem mollis eu. Nulla faucibus sed ipsum sed sodales. Curabitur varius iaculis felis, in aliquet sem suscipit quis. Ut vulputate, magna ac bibendum elementum, nulla magna tincidunt urna, a venenatis dolor arcu sed leo."
+        },
+        "contactUs": {
+            "questionContact": "Do you have any questions?",
+            "contact": "Contact us"
+        },
+        "articles": {
+            "menuTitle": "Useful articles",
+            "btnArticle": "View all articles",
+            "nameArticle": "Discover Architecture",
+            "dateArticle": "Jule 03, 2022",
+            "textArticle": "Projects for many large domestic and foreign corporations, enterprises in many elds such",
+            "learnMore": "Learn more >"
+        },
+        "questions": {
+            "ownTitle": "The largest and oldest Quotations Page on the Web with about 30 categories",
+            "ownText": "Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus. Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam viverra ultrices est vitae suscipit. Pellentesque elementum purus non nisl pharetra consequat. Nunc in venenatis orci.",
+            "twoTitle": "A huge collection of inspirational quotes, thoughts of greatest minds in history",
+            "twoText": "Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus. Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam viverra ultrices est vitae suscipit. Pellentesque elementum purus non nisl pharetra consequat. Nunc in venenatis orci.",
+            "threeTitle": "Quotations from the great works of literature",
+            "threeText": "Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus. Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam viverra ultrices est vitae suscipit. Pellentesque elementum purus non nisl pharetra consequat. Nunc in venenatis orci.",
+            "fourTitle": "Read quotes and sayings from famous people in history",
+            "fourText": "Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus. Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam viverra ultrices est vitae suscipit. Pellentesque elementum purus non nisl pharetra consequat. Nunc in venenatis orci.",
+            "fifeTitle": "Collected quotes from Albert Einstein",
+            "fifeText": "Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus. Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam viverra ultrices est vitae suscipit. Pellentesque elementum purus non nisl pharetra consequat. Nunc in venenatis orci."
+        }
+    },
+    "titleModal": "Modal",
+    "descriptionModal": {
+        "title": "Leave your contacts",
+        "feedback": "we will contact you within three hours"
+    },
+    "titleCategory": "category",
+    "descriptionCategory": {
+        "title": "Apartments",
+        "titleText": "in Dubai",
+        "titleApartments": "All Apartments",
+        "category": "Category",
+        "categoryes": {
+            "categoryOne": "Townhous",
+            "categoryTwo": "Villa",
+            "categoryThree": "Commercial",
+            "backTitle": "Apartments",
+            "backDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+            "learn": "Learn more >"
+        },
+        "titleOffer": "Best Offers",
+        "Offers": [
+            {
+                "id": 1,
+                "image": "./image/category/Best-offers1.webp",
+                "category": "Townhous",
+                "title": "Arabian Ranches",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 2,
+                "image": "./image/category/Best-offers2.webp",
+                "category": "Villa",
+                "title": "Dubai Hills Estate",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 3,
+                "image": "./image/category/Best-offers3.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 4,
+                "image": "./image/category/Best-offers4.webp",
+                "category": "Apartments",
+                "title": "Luxury Living",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 5,
+                "image": "./image/category/Best-offers5.webp",
+                "category": "Townhous",
+                "title": "Arabian Ranches",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 6,
+                "image": "./image/category/Best-offers6.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 7,
+                "image": "./image/category/Best-offers7.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 8,
+                "image": "./image/category/Best-offers8.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 9,
+                "image": "./image/category/Best-offers9.webp",
+                "category": "Townhous",
+                "title": "Arabian Ranches",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 10,
+                "image": "./image/category/Best-offers10.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 11,
+                "image": "./image/category/Best-offers11.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 12,
+                "image": "./image/category/Best-offers12.webp",
+                "category": "Apartments",
+                "title": "Luxury Living",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 13,
+                "image": "./image/category/Best-offers12.webp",
+                "category": "Townhous",
+                "title": "Arabian Ranches",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 14,
+                "image": "./image/category/Best-offers11.webp",
+                "category": "Villa",
+                "title": "Dubai Hills Estate",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 15,
+                "image": "./image/category/Best-offers10.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 16,
+                "image": "./image/category/Best-offers9.webp",
+                "category": "Apartments",
+                "title": "Luxury Living",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 17,
+                "image": "./image/category/Best-offers8.webp",
+                "category": "Townhous",
+                "title": "Arabian Ranches",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 18,
+                "image": "./image/category/Best-offers7.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 19,
+                "image": "./image/category/Best-offers6.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 20,
+                "image": "./image/category/Best-offers5.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 21,
+                "image": "./image/category/Best-offers4.webp",
+                "category": "Townhous",
+                "title": "Arabian Ranches",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 22,
+                "image": "./image/category/Best-offers3.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 23,
+                "image": "./image/category/Best-offers2.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 24,
+                "image": "./image/category/Best-offers1.webp",
+                "category": "Apartments",
+                "title": "Luxury Living",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 25,
+                "image": "./image/category/Best-offers1.webp",
+                "category": "Townhous",
+                "title": "Arabian Ranches",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 26,
+                "image": "./image/category/Best-offers2.webp",
+                "category": "Villa",
+                "title": "Dubai Hills Estate",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 27,
+                "image": "./image/category/Best-offers3.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 28,
+                "image": "./image/category/Best-offers4.webp",
+                "category": "Apartments",
+                "title": "Luxury Living",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 29,
+                "image": "./image/category/Best-offers5.webp",
+                "category": "Townhous",
+                "title": "Arabian Ranches",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 30,
+                "image": "./image/category/Best-offers6.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 31,
+                "image": "./image/category/Best-offers7.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 32,
+                "image": "./image/category/Best-offers8.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 33,
+                "image": "./image/category/Best-offers9.webp",
+                "category": "Townhous",
+                "title": "Arabian Ranches",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 34,
+                "image": "./image/category/Best-offers10.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 35,
+                "image": "./image/category/Best-offers11.webp",
+                "category": "Commercial",
+                "title": "Shell and Core",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 36,
+                "image": "./image/category/Best-offers12.webp",
+                "category": "Apartments",
+                "title": "Luxury Living",
+                "description": "The launch of this community enabled expats to own a luxurious property in Dubai. ",
+                "learn": "Learn more >"
+            }
+        ],
+        "apartments": "Apartments",
+        "apartmentsText": "To and from, fascinated her: every pebble, ant, stick, leaf, blade of grass, and crack in the sidewalk was something to be picked up, looked at, tasted, smelled, and shaken. Everything was interesting to her. She knew nothing. I knew everything…been there, done that. She was in the moment, I was in the past. She was mindful. I was mindless.",
+        "everything": "Everything along the way",
+        "everythingText": "One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in the future. The same is true as we experience the emotional sensation of stress from our first instances of social rejection or ridicule. We quickly learn to fear and thus automatically avoid potentially stressful situations of all kinds, including the most common of all: making mistakes."
+    },
+    "titleBlog": "blog",
+    "descriptionBlog": {
+        "blogTitle": "Blog",
+        "blog": [
+            {
+                "id": 1,
+                "image": "./image/blog/shutterstock_1.webp",
+                "title": "Black commercial property in Abu Dhabi",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 2,
+                "image": "./image/blog/shutterstock_2.webp",
+                "title": "White commercial property in Abu Dhabi",
+                "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 3,
+                "image": "./image/blog/shutterstock_3.webp",
+                "title": "Another Commercial property in Abu Dhabi",
+                "text": "The final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 4,
+                "image": "./image/blog/shutterstock_4.webp",
+                "title": "Commercial property in Abu Dhabi",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 5,
+                "image": "./image/blog/shutterstock_5.webp",
+                "title": "White commercial property in Abu Dhabi",
+                "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 6,
+                "image": "./image/blog/shutterstock_6.webp",
+                "title": "Another Commercial property in Abu Dhabi",
+                "text": "The final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 7,
+                "image": "./image/blog/shutterstock_7.webp",
+                "title": "Black commercial property in Abu Dhabi",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 8,
+                "image": "./image/blog/shutterstock_8.webp",
+                "title": "White commercial property in Abu Dhabi",
+                "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 9,
+                "image": "./image/blog/shutterstock_9.webp",
+                "title": "Another Commercial property in Abu Dhabi",
+                "text": "The final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 10,
+                "image": "./image/blog/shutterstock_10.webp",
+                "title": "Commercial property in Abu Dhabi",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 11,
+                "image": "./image/blog/shutterstock_11.webp",
+                "title": "White commercial property in Abu Dhabi",
+                "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 12,
+                "image": "./image/blog/shutterstock_12.webp",
+                "title": "Another Commercial property in Abu Dhabi",
+                "text": "The final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 13,
+                "image": "./image/blog/shutterstock_12.webp",
+                "title": "Black commercial property in Abu Dhabi",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 14,
+                "image": "./image/blog/shutterstock_11.webp",
+                "title": "White commercial property in Abu Dhabi",
+                "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 15,
+                "image": "./image/blog/shutterstock_10.webp",
+                "title": "Another Commercial property in Abu Dhabi",
+                "text": "The final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 16,
+                "image": "./image/blog/shutterstock_9.webp",
+                "title": "Commercial property in Abu Dhabi",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 17,
+                "image": "./image/blog/shutterstock_8.webp",
+                "title": "White commercial property in Abu Dhabi",
+                "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 18,
+                "image": "./image/blog/shutterstock_7.webp",
+                "title": "Another Commercial property in Abu Dhabi",
+                "text": "The final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 19,
+                "image": "./image/blog/shutterstock_6.webp",
+                "title": "Black commercial property in Abu Dhabi",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 20,
+                "image": "./image/blog/shutterstock_5.webp",
+                "title": "White commercial property in Abu Dhabi",
+                "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 21,
+                "image": "./image/blog/shutterstock_4.webp",
+                "title": "Another Commercial property in Abu Dhabi",
+                "text": "The final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 22,
+                "image": "./image/blog/shutterstock_3.webp",
+                "title": "Commercial property in Abu Dhabi",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 23,
+                "image": "./image/blog/shutterstock_2.webp",
+                "title": "White commercial property in Abu Dhabi",
+                "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 24,
+                "image": "./image/blog/shutterstock_1.webp",
+                "title": "Another Commercial property in Abu Dhabi",
+                "text": "The final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 25,
+                "image": "./image/blog/shutterstock_1.webp",
+                "title": "Commercial property in Abu Dhabi",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 26,
+                "image": "./image/blog/shutterstock_2.webp",
+                "title": "White commercial property in Abu Dhabi",
+                "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 27,
+                "image": "./image/blog/shutterstock_3.webp",
+                "title": "Another Commercial property in Abu Dhabi",
+                "text": "The final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 28,
+                "image": "./image/blog/shutterstock_4.webp",
+                "title": "Commercial property in Abu Dhabi",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 29,
+                "image": "./image/blog/shutterstock_5.webp",
+                "title": "White commercial property in Abu Dhabi",
+                "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 30,
+                "image": "./image/blog/shutterstock_6.webp",
+                "title": "Another Commercial property in Abu Dhabi",
+                "text": "The final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 31,
+                "image": "./image/blog/shutterstock_7.webp",
+                "title": "Commercial property in Abu Dhabi",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 32,
+                "image": "./image/blog/shutterstock_8.webp",
+                "title": "White commercial property in Abu Dhabi",
+                "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 33,
+                "image": "./image/blog/shutterstock_9.webp",
+                "title": "Another Commercial property in Abu Dhabi",
+                "text": "The final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 34,
+                "image": "./image/blog/shutterstock_10.webp",
+                "title": "Commercial property in Abu Dhabi",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 35,
+                "image": "./image/blog/shutterstock_11.webp",
+                "title": "White commercial property in Abu Dhabi",
+                "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            },
+            {
+                "id": 36,
+                "image": "./image/blog/shutterstock_12.webp",
+                "title": "Another Commercial property in Abu Dhabi",
+                "text": "The final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn": "Learn more >"
+            }
+        ]
+    },
+    "titleServices": "Services",
+    "mainTitle": {
+        "titlePastOne": "Rent",
+        "titlePastTwo": "Furnished Apartments ",
+        "titlePastThree": "in Dubai"
+    },
+    "descriptionServices": {
+        "rent": "Main > Services >Rent> Furnished Apartments in Dubai",
+        "servicesBuying": "Service Buying property in Dubai",
+        "title-rent": "Real estate investment in Dubai, UAE",
+        "textRent1": "This response is important for our ability to learn from mistakes, but it alsogives rise to self-criticism, because it is part of the threat-protection system. In other words, what keeps us safe can go too far, and keep us too safe. In fact it can trigger self-censoring.",
+        "textRent2": "One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in the future. The same is true as we experience the emotional sensation of stress from our first instances of social rejection or ridicule. We quickly learn to fear and thus automatically avoid potentially stressful situations of all kinds, including the most common of all: ",
+        "textRent3": "This response is important for our ability to learn from mistakes, but it alsogives rise to self-criticism, because it is part of the threat-protection system. In other words, what keeps us safe can go too far, and keep us too safe. In fact it can trigger self-censoring.",
+        "textRent4": "One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in the future. The same is true as we experience the emotional sensation of stress from our first instances of social rejection or ridicule. We quickly learn to fear and thus automatically avoid potentially stressful situations of all kinds, including the most common of all: ",
+        "method": "Methods for Everyone",
+        "textMethod1": "Everything along the way, to and from, fascinated her: every pebble, ant, stick, leaf, blade of grass, and crack in the sidewalk was something to be picked up, looked at, tasted, smelled, and shaken. Everything was interesting to her. She knew nothing. I knew everything…been there, done that. She was in the moment, I was in the past. She was mindful. I was mindless.",
+        "textMethod2": "One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in the future. The same is true as we experience the emotional sensation of stress from our first instances of social rejection or ridicule. We quickly learn to fear and thus automatically avoid potentially stressful situations of all kinds, including the most common of all: making mistakes.",
+        "quote": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time. emotional sensation of stress from our firs",
+        "Author": "Paul",
+        "position": "Elite Author",
+        "achievement": {
+            "years": "YEARS WORKING",
+            "managers": "TALANTED MANAGERS",
+            "projects": "COMPLITLY PROJECTS"
+        },
+        "Challenge": {
+            "title": "Challenge",
+            "textchalange": "To and from, fascinated her: every pebble, ant, stick, leaf, blade of grass, and crack in the sidewalk was something to be picked up, looked at, tasted, smelled, and shaken. Everything was interesting to her. She knew nothing. I knew everything…been there, done that. She was in the moment, I was in the past. She was mindful. I was mindless.",
+            "location": "Everything along the way",
+            "textLocation": "One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in the future. The same is true as we experience the emotional sensation of stress from our first instances of social rejection or ridicule. We quickly learn to fear and thus automatically avoid potentially stressful situations of all kinds, including the most common of all: making mistakes.",
+            "textOne": "Everything along the way, to and from, fascinated her: every pebble, ant, stick, leaf, blade of grass, and crack in the sidewalk was something to be picked up, looked at, tasted, smelled, and shaken.",
+            "textTwo": "Everything was interesting to her. She knew nothing. I knew everything…been there, done that. She was in the moment, I was in the past. She was mindful. I was mindless.",
+            "textThree": "One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in the future. The same is true as we experience the emotional sensation of stress from our first instances of social rejection or ridicule.",
+            "textFour": "We quickly learn to fear and thus automatically avoid potentially stressful situations of all kinds, including the most common of all: making mistakes."
+        },
+        "table": {
+            "th1": "Included in the package",
+            "th2": "Complete management",
+            "th3": "Partial control",
+            "tr1": "Real estate advertising",
+            "tr2": "Search for tenants",
+            "tr3": "Conclusion of a lease agreement",
+            "tr4": "Getting paid",
+            "tr5": "Key handover",
+            "tr6": "Payment processing",
+            "tr7": "Dealing with repair requests",
+            "tr8": "DEWA connection (electricity/water)",
+            "tr9": "Registration of the rental agreement Ejari",
+            "tr10": "Separate administrator",
+            "tr11": "Detailed inspection of the object",
+            "tr12": "Property preparation before arrival",
+            "tr13": "Reporting",
+            "tr14": "Repair Request Management",
+            "tr15": "Repair management"
+        },
+        "propose": {
+            "titlePropose": "We will also propose",
+            "viewAll": "View all services >",
+            "title": "Mortgage Registration",
+            "text": "A person applying for a mortgage in the United Arab Emirates must meet the following requirements"
+        }
+    },
+    "titleContact": "Contact",
+    "descriptionContact": {
+        "contactTitlePastOne": "Dubai, ",
+        "contactTitlePastTwo": "UAE",
+        "adress": "269 King Str, 05th Floor, Utral Hosue Building, Dubai, VIC 3000, UAE.",
+        "phone": "+99 (0) 344 956 4050",
+        "emailTitle": "Email: ",
+        "email": " info@sparch.co",
+        "follow": "Follow us:",
+        "toWork": "Work Hours: ",
+        "workHours": " Monday - Friday : 08h00 - 17h30",
+        "formTitleOne": "Be in touch",
+        "formTitleTwo": "with us"
+    },
+    "titleLast": "footer",
+    "descriptionLast": {
+        "buy": {
+            "navTitle": "Buy",
+            "nav1": "Apartment in Dubai",
+            "nav2": "House in Dubai",
+            "nav3": "Apartments in Dubai",
+            "nav4": "Loft in Dubai",
+            "nav5": "Penthouse in Dubai",
+            "nav6": "Villa in Dubai"
+        },
+        "services": {
+            "navTitle": "Services",
+            "nav1": "Property management in Dubai, UAE",
+            "nav2": "Sell property in Dubai, UAE",
+            "nav3": "Rent property in Dubai, UAE",
+            "nav4": "Investments in Dubai, UAE",
+            "nav5": "Real estate for cryptocurrency in Dubai",
+            "nav6": "Moving to Dubai, UAE"
+        },
+        "information": {
+            "navTitle": "Information",
+            "nav1": "Property management in Dubai, UAE",
+            "nav2": "Sell property in Dubai, UAE",
+            "nav3": "Rent property in Dubai, UAE",
+            "nav4": "Investments in Dubai, UAE",
+            "nav5": "Real estate for cryptocurrency in Dubai",
+            "nav6": "Moving to Dubai, UAE"
+        },
+        "aboutCompany": {
+            "navTitle": "About Company",
+            "nav1": "Jobs",
+            "nav2": "Story",
+            "nav3": "Licenses",
+            "nav4": "Why are we",
+            "nav5": "Real estate agency"
+        },
+        "contact": {
+            "navTitle": "Contact",
+            "nav1": "964 Worthington Drive Dubai, UAE",
+            "nav2": "dubairealty@mail.com"
+        }
+    }
+}
