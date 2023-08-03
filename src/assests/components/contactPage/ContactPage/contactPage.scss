@@ -1,0 +1,166 @@
+.maps {
+    height: 760px;
+    width: 90%;
+
+    .map-container {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.titleText {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: left;
+    margin-left: 400px;
+    margin-bottom: 90px;
+    margin-top: 150px;
+}
+
+.map {
+    width: 95%;
+}
+
+.contactMap {
+    width: 30%;
+    background-repeat: no-repeat;
+    background-color: #272727;
+    position: absolute;
+    top: 500px;
+    left: 345px;
+    font-family: "WorkSans";
+    padding: 60px 70px;
+    box-sizing: border-box;
+    text-align: left;
+
+    .titleContact {
+        margin-bottom: 30px;
+
+        span {
+            font-family: "Gilroy";
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 45px;
+            margin: 0;
+
+        }
+
+        & span:last-child {
+            color: #FCD54C;
+        }
+    }
+
+    .contactText {
+        text-align: left;
+
+        & div:nth-child(2) {
+            font-family: 'Gilroy';
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 45px;
+            margin-top: 60px;
+            margin-bottom: 50px;
+        }
+
+        & div:first-child,
+        span:nth-child(4),
+        span:last-child {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color: #929292;
+        }
+
+        & div:nth-child(5) {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .titleText {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        margin-left: 100px;
+    }
+
+    .map {
+        width: 90%;
+    }
+
+    .contactMap {
+        width: 30%;
+        top: 400px;
+        left: 145px;
+        padding: 10px 15px;
+        box-sizing: border-box;
+        text-align: left;
+
+        .titleContact {
+            margin-bottom: 5px;
+
+            span {
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 25px;
+                margin: 0;
+
+            }
+        }
+
+        .contactText {
+            text-align: left;
+
+            & div:nth-child(2) {
+                font-size: 14px;
+                line-height: 25px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            & div:first-child,
+            span:nth-child(4),
+            span:last-child {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 21px;
+            }
+
+            & div:nth-child(5) {
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+
+            & span:nth-child(3),
+            div:nth-child(5),
+            span:nth-child(6) {
+                font-weight: 700;
+                font-size: 10px;
+                line-height: 25px;
+                margin: 0;
+            }
+
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .maps {
+        height: 350px;
+       
+    }
+    .titleText {       
+        margin-bottom: 350px;
+        margin-left: 50px;
+    }
+
+    .contactMap {
+        width: 80%;        
+        top: 310px;
+        left: 30px;
+    }
+ 
+}

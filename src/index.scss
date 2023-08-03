@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'),
+         url('./assests/fonts/Gilroy/Gilroy-Regular.woff') format('woff'),
+         url('./assests/fonts/Gilroy/Gilroy-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'WorkSans';
+    src: local('WorkSans'),
+         url('./assests/fonts/WorkSans/Worksans.woff') format('woff'),
+         url('./assests/fonts/WorkSans/Worksans.woff2') format('woff2');
+}
+
+:root {
+    --swiper-theme-color: #FCD54C!important;
+}

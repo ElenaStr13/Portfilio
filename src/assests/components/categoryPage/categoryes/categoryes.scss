@@ -1,0 +1,139 @@
+.category-picture {
+    background-image: url(../../../../../public/image/category/title-image.webp);
+    height: 800px;
+    background-size: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    margin-top: 65px;
+    $yellowColor: #FCD54C !global;
+
+    .title-category {
+        margin-top: 200px;
+        font-family: 'Gilroy';
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 80px;
+        list-style: none;
+
+
+        & li:last-child {
+            color: $yellowColor;
+        }
+
+    }
+}
+
+.pageCategory {
+    h2 {
+        font-family: 'Gilroy';
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 80px;
+    }
+}
+
+.about-apartments {
+    width: 40%;
+    text-align: left;
+    margin-bottom: 160px;
+
+    & h3:first-child {
+        font-family: 'Gilroy';
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 35px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    & span {
+        font-family: 'WorkSans';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #929292;
+    }
+
+    & h3:nth-child(3) {
+        font-family: 'Gilroy';
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 26px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .category-picture {
+        height: 300px;
+        width: 90%;
+        margin-top: 65px;
+        margin-bottom: 50px;
+
+        .title-category {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+
+    .pageCategory {
+        h2 {
+
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+
+    .about-apartments {
+        width: 70%;
+
+        & h3:first-child {
+            font-size: 40px;
+            line-height: 25px;
+
+        }
+
+        & span {            
+            font-size: 12px;
+            line-height: 20px;            
+        }
+
+        & h3:nth-child(3) {
+            font-family: 'Gilroy';
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 26px;
+            margin-top: 80px;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .category-picture {
+        height: 200px;
+          position: relative;
+          margin-bottom: 0;
+        .title-category {
+            position: absolute;
+            margin-top: 0px;           
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            top: 50px;
+            left: 50px;                        
+        }
+    }
+
+    .pageCategory {
+        h2 { 
+            font-weight: 500;                       
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+}

@@ -1,0 +1,207 @@
+.proposes-all {
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gilroy';
+    color: white;
+
+    .title-propose {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 90px;
+
+        span {
+            font-weight: 700;
+            font-size: 70px;
+            line-height: 85px;
+        }
+
+        button {
+            background-color: #272727;
+            color: #929292;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 21px;
+            padding: 0;
+            border-color: #272727;
+        }
+    }
+}
+
+.proposes {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 70%;
+    margin-bottom: 100px;
+
+    .one-propose,
+    .two-propose,
+    .three-propose {
+        width: 30%;
+        height: 350px;
+        cursor: pointer;
+        position: relative;
+        perspective: 1000px;
+    }
+}
+
+.front-propose {
+    margin-bottom: 25px;
+    transform: perspective(600px) rotateY(0);
+    position: relative;
+
+    & span:first-child {
+        margin: 0;
+        width: 300px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+        position: absolute;
+        top: 260px;
+    }
+}
+
+.front-propose,
+.back-propose {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 1s;
+    backface-visibility: hidden;
+}
+
+.back-propose {
+    border: 1px solid #FCD54C;
+    background-color: #FCD54C;
+    color: #272727;
+    width: 350px;
+    padding: 30px;
+    box-sizing: border-box;
+    transform: rotateY(180deg);
+    text-align: left;
+
+    .propose-title {
+        margin-top: 15px;
+        margin-bottom: 28px;
+        font-family: 'Gilroy';
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    & p:nth-child(2) {
+        font-family: 'WorkSans';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 80px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #272727;
+    }
+}
+
+.one-propose:hover .front-propose {
+    transform: rotateY(180deg);
+}
+
+.one-propose:hover .back-propose {
+    transform: rotateY(360deg);
+}
+
+.two-propose:hover .front-propose {
+    transform: rotateY(180deg);
+}
+
+.two-propose:hover .back-propose {
+    transform: rotateY(360deg);
+}
+
+.three-propose:hover .front-propose {
+    transform: rotateY(180deg);
+}
+
+.three-propose:hover .back-propose {
+    transform: rotateY(360deg);
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .proposes-all {
+        margin: 70px auto;
+        .title-propose {
+            span {
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 45px;
+            }
+        }
+    }
+
+    .proposes {
+        width: 80%;
+
+        .one-propose,
+        .two-propose,
+        .three-propose {
+            width: 20%;
+            height: 200px;
+            perspective: 600px;
+        }
+    }
+
+    .front-propose {
+
+        & span:first-child {
+            display: none;
+            // margin: 0;
+            // width: 180px;
+            // font-weight: 400;
+            // font-size: 16px;
+            // line-height: 25px;
+            // top: 140px;
+        }
+    }
+
+    .front-propose,
+    .back-propose {
+        width: 80%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transition: 1s;
+        backface-visibility: hidden;
+
+        .img-card {
+            width: 180px;
+        }
+    }
+
+    .back-propose {
+        width: 160px;
+        padding: 5px;
+    
+        .propose-title {
+            margin-top: 5px;
+            margin-bottom: 15px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 18px;
+        }
+
+        & p:nth-child(2) {
+            font-family: 'WorkSans';
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 16px;
+            margin-bottom: 40px;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.wrapper-contactus {
+    margin: 0 auto;
+    width: 90%;
+    background-image: url('../../../../public/image/main/contactUs.webp');
+    background-repeat: no-repeat;
+    padding-top: 50px;    
+
+    h4,
+    h1 {
+        color: #272727;
+    }
+
+    h4 {
+        font-family: 'WorkSans';
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 160%;
+        margin-bottom: 15px;
+
+    }
+
+    h1 {
+        font-family: 'Gilroy';
+        font-weight: 700;
+        font-size: 120px;
+        line-height: 69px;
+        margin-bottom: 55px;
+
+    }
+
+    .normal-contactUs {
+        height: 60px;
+        width: 20%;
+        margin-bottom: 65px;
+        padding-left: 40px;
+        box-sizing: border-box;
+        border-color: white;
+
+    }
+
+    .for-user {
+        color: #272727;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .wrapper-contactus {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper-contactus {
+        width: 90%;
+    }
+}
+
+@media (max-width: 320px) {
+    .wrapper-contactus {
+        width: 105%;
+
+        h1 {       
+            font-size: 50px;
+            line-height: 62px;        
+    
+        }
+        .normal-contactUs {
+            height: 30px;
+            width: 65%;
+            margin-bottom: 85px;
+            padding-left: 40px;      
+    
+        }
+     
+
+    }
+}

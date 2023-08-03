@@ -1,0 +1,497 @@
+* {
+    margin: 0 auto;
+    $yellowColor: #FCD54C !global;
+}
+
+.header {
+    background-color: #272727;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gilroy';
+    height: 10vh;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 25px;
+    position: fixed;
+    top: 0;
+    z-index: 199;
+
+    //left part for menu - logo and nav
+    .leftPart-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        nav {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+
+
+            .menu-content {
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                text-transform: uppercase;
+                gap: 35px;
+
+                .nav {
+                    text-decoration: none;
+
+                    & ::after {
+                        content: url('../../../../public/image/main/row_white.webp');
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+
+                .menu-active {
+                    color: $yellowColor;
+                }
+
+                .dropDown {
+                    background-color: #272727;
+                    border: #272727;
+                    padding: 0;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+
+                    li ::after {
+                        content: url('../../../../public/image/main/row_white.webp');
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+
+                .dropdown-menu {
+                    margin-top: 15px;
+                }
+
+                .dropdown-items {
+                    background-color: #272727;
+                    display: flex;
+                    margin: 0;
+                    flex-direction: column;
+                    text-align: left;
+                    position: absolute;
+                    left: 426px;
+                    top: 45px;
+                    z-index: 200;
+
+
+
+                    .dropdown-item {
+                        text-decoration: none;
+                        color: white;
+                        text-transform: none;
+                        margin: 0;
+                        border: 1px solid #979797;
+                        padding: 10px 20px;
+                    }
+
+                    & :hover {
+                        color: #272727;
+                        background-color: $yellowColor;
+                    }
+                }
+
+            }
+        }
+
+        .for-mobile {
+            display: none;
+        }
+    }
+
+}
+
+//right part - button for consultation, language, phone number
+
+.header {
+    .rightPart-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 30%;
+        align-content: start;
+        align-items: center;
+
+        .sources {
+            font-family: 'WorkSans';
+            color: black;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            padding: 14px;
+            background-color: $yellowColor;
+            border: 1px solid $yellowColor;
+            height: fit-content;
+        }
+
+        .language {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+
+            button {
+                margin-right: 0.001vw;
+                background-color: #272727;
+                border-style: none;
+                color: white;
+            }
+
+            button:hover {
+                color: $yellowColor;
+                scale: 1.1;
+            }
+
+            .active-lng {
+                color: $yellowColor;
+            }
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .burger-menu {
+            display: none;
+        }
+
+
+    }
+}
+
+@media (max-width: 1200px) {
+    .header {
+        height: 10vh;
+
+        img {
+            margin-left: 0;
+        }
+
+        .leftPart-menu {
+            color: white;
+            align-content: flex-end;
+            align-items: center;
+
+
+            nav {
+
+                .menu-content {
+                    gap: 20px;
+                }
+
+            }
+
+            .for-mobile {
+                display: none;
+            }
+        }
+
+        .rightPart-menu {
+            width: 50%;
+
+            .sources {
+                padding: 1px;
+
+                button {
+                    margin-right: 5px;
+                }
+
+                a {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+    .header {
+
+        .leftPart-menu {
+            margin-right: 0;
+           
+            img {
+                width: 60%;
+                margin-right: 0;
+            }
+
+            .menu {
+                flex-direction: column;
+                position: fixed;
+                top: 70px;
+                left: 0;
+                z-index: 300;
+                width: 100vw;
+                height: 100vh;
+                transform: translateX(-100%);
+                transition: all 0.5s;
+
+                .menu-content {
+                    width: 100vw;
+                    height: 80vh;
+                    background-color: #272727;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+
+                }
+
+                .dropdown-items {
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    width: 250px;
+                }
+            }
+
+            .menu.active {
+                transform: translateX(0);
+                font-family: 'Gilroy';
+                font-weight: 300;
+                font-size: 28px;
+                line-height: 30px;
+
+            }
+
+            .for-mobile {
+                display: none;
+            }
+
+        }
+
+        .rightPart-menu {
+            .burger-menu {
+                display: flex;
+                align-content: center;
+                height: 50px;
+
+                .burger-btn {
+                    width: 20px;
+                    height: 20px;
+                    position: relative;
+                    margin-left: 20px;
+                    cursor: pointer;
+
+                    span {
+                        position: absolute;
+                        top: 15px;
+                        width: 20px;
+                        background-color: white;
+                        height: 2px;
+                        transition: all 0.3s;
+                    }
+                }
+
+                .burger-btn::before {
+                    content: '';
+                    position: absolute;
+                    top: 6px;
+                    width: 20px;
+                    background-color: white;
+                    height: 2px;
+                    transition: all 0.3;
+                }
+
+                .burger-btn::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -5px;
+                    width: 20px;
+                    background-color: white;
+                    height: 2px;
+                    transition: all 0.3s;
+                }
+
+                .burger-btn.active-burger::before {
+                    transform: rotate(45deg);
+                    top: 9px;
+                }
+
+                .burger-btn.active-burger::after {
+                    transform: rotate(-45deg);
+                    bottom: 9px;
+                }
+
+                .burger-btn.active-burger {
+                    span {
+                        display: none;
+                    }
+                }
+            }
+
+            a {
+                font-size: 10px;
+                margin-right: 0;
+            }
+
+        }
+    }
+
+}
+
+@media (max-width: 320px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        .leftPart-menu {
+            margin-right: 0;
+            margin-left: 20px;
+            width: 60%;
+
+            img {
+                width: 50%;
+                margin-right: 0;
+            }
+
+            .menu {
+                flex-direction: column;
+                position: fixed;
+                top: 40px;
+                left: 0;
+                z-index: 300;
+                width: 100vw;
+                height: 100vh;
+                transform: translateX(-100%);
+                transition: all 0.5s;
+
+                .menu-content {
+                    width: 100vw;
+                    height: 100vh;
+                    background-color: #272727;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;                  
+
+                    .for-mobile {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 28px;                  
+
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            font-size: 20px;
+                        }
+
+                        .language {
+                            button {
+                                background-color: #272727;
+                                border: #272727;
+                                color: white;
+                            }
+
+                        }
+                    }
+                }
+
+                .dropdown-items {
+                    font-weight: 400;
+                    font-size: 10px;
+                    line-height: 14px;
+                    width: 250px;
+                }
+            }
+
+            .menu.active {
+                transform: translateX(0);
+                font-family: 'Gilroy';
+                font-weight: 300;
+                font-size: 28px;
+                line-height: 30px;
+
+            }
+
+        }
+
+        .rightPart-menu {
+
+            margin-left: 0;
+
+            .burger-menu {
+                display: flex;
+                //align-content: center;
+                align-items: start;
+                height: 30px;
+
+
+                .burger-btn {
+                    width: 20px;
+                    height: 20px;
+                    position: relative;
+                    margin-left: 20px;
+                    cursor: pointer;
+
+
+                    span {
+                        position: absolute;
+                        top: 15px;
+                        width: 20px;
+                        background-color: white;
+                        height: 2px;
+                        transition: all 0.3s;
+                    }
+                }
+
+                .burger-btn::before {
+                    content: '';
+                    position: absolute;
+                    top: 6px;
+                    width: 20px;
+                    background-color: white;
+                    height: 2px;
+                }
+
+                .burger-btn::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -5px;
+                    width: 20px;
+                    background-color: white;
+                    height: 2px;
+                }
+
+            }
+
+
+            a {
+                display: none;
+            }
+
+            .btn-header {
+                display: none;
+            }
+
+            .language {
+                display: none;
+                // font-weight: 600;
+                // font-size: 14px;
+                // line-height: 17px;
+
+                button {
+                    display: none;
+                    // margin-right: 0.001vw;
+                    // background-color: #272727;
+                    // border-style: none;
+                    // color: white;
+                }
+
+            }
+
+        }
+    }
+
+}

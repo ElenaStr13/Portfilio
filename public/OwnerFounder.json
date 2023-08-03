@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Paul",
+      "jobTitle": "Owner in ",
+      "company": "Paul.com",
+      "image": "./image/main/author1.webp",
+      "text": "Projects for many large domestic and foreign corporations, enterprises in many elds such as nance, banking, F&B, education, communication."           
+    },   
+    {
+      "id": 2,
+      "name": "Robert",
+      "jobTitle": "Founder in ",
+      "company": "Apple inc.",
+      "image": "./image/main/author2.webp",
+      "text": "Founded in 2007, Sparch is specializing in providing innovative services such as website design, brand identity and marketing"           
+    },
+    {
+      "id": 3,
+      "name": "Paul",
+      "jobTitle": "Owner in ",
+      "company": "Paul.com",
+      "image": "./image/main/author1.webp",
+      "text": "Projects for many large domestic and foreign corporations, enterprises in many elds such as nance, banking, F&B, education, communication."           
+    },
+    {
+      "id": 4,
+      "name": "Robert",
+      "jobTitle": "Founder in ",
+      "company": "Apple inc.",
+      "image": "./image/main/author2.webp",
+      "text": "Founded in 2007, Sparch is specializing in providing innovative services such as website design, brand identity and marketing"           
+    },
+    {
+      "id": 5,
+      "name": "Paul",
+      "jobTitle": "Owner in ",
+      "company": "Paul.com",
+      "image": "./image/main/author1.webp",
+      "text": "Projects for many large domestic and foreign corporations, enterprises in many elds such as nance, banking, F&B, education, communication."           
+    },  
+    {
+      "id": 6,
+      "name": "Robert",
+      "jobTitle": "Founder in ",
+      "company": "Apple inc.",
+      "image": "./image/main/author2.webp",
+      "text": "Founded in 2007, Sparch is specializing in providing innovative services such as website design, brand identity and marketing"           
+    }   
+  ]

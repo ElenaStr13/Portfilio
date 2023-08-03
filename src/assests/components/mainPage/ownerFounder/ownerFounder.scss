@@ -1,0 +1,20 @@
+.swiper-wrapper-owner {
+    max-width: 1900;
+    margin-top: 200px;
+    background-color: #272727;
+    margin-bottom: 70px;
+}
+
+@media (max-width: 768px) {
+    .swiper-wrapper-owner {
+        max-width: 768px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    .swiper-wrapper-owner {
+        width: 320px;
+        margin-top: 0;
+    }
+}

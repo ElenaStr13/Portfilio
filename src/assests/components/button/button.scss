@@ -1,0 +1,39 @@
+button {    
+    background-color: #FCD54C;
+    color: black;
+    border: 1px solid #FCD54C;
+    padding: 16px 25px;
+    font-family: 'WorkSans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.black {
+    background-color: #272727;
+    color: white;
+    height: 62px;
+    width: 10%;
+}
+
+@media (max-width: 1200px) {
+    button {
+        font-size: 14px;
+        padding: 16px 15px;
+    }
+ }
+
+ @media (min-width: 320px) and (max-width: 768px) {
+    button {
+        font-size: 12px;
+        padding: 5px 5px;
+    }
+ }
+
+ @media (max-width: 320px) {
+    .black {    
+        height: 30px;
+        width: 30%;
+       
+    }
+ }

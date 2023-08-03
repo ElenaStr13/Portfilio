@@ -1,0 +1,178 @@
+.wrapper-owner {
+    background-color: #272727;
+    height: 320px;
+    width: 490px;
+    border-radius: 8px;
+    padding: 35px 40px;
+    //padding-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'WorkSans';
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+
+
+    .quotes {
+        font-weight: 600;
+        font-size: 120px;
+        line-height: 200px;
+        color: #FCD54C;
+        position: absolute;
+        right: 150px;
+        top: 40px;
+    }
+
+    .image {
+        margin-bottom: 16px;
+        height: 120px;
+        border-radius: 50%;
+        position: absolute;
+        top: 55px;
+        left: 60px;
+    }
+
+    .owner-text {
+        border: 1px solid #FCD54C;
+        padding: 20px 30px;
+        margin-top: 100px;
+
+
+        .name {
+            font-family: 'Gilroy';
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 30px;
+            margin-top: 80px;
+        }
+
+        .jobTitle {
+            color: white;
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        .company {
+            color: #FCD54C;
+        }
+
+        .text {
+            color: #929292;
+            font-size: 16px;
+            line-height: 26px;
+        }
+
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper-owner {
+        height: 120px;
+        width: 350px;
+        border-radius: 8px;
+        padding: 35px 40px;
+        padding-top: 150px;
+        margin-bottom: 20px;
+        font-weight: 400;
+
+        .quotes {
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 200px;
+            right: 80px;
+            top: 150px;
+        }
+
+        .image {
+            margin-bottom: 16px;
+            height: 120px;
+            border-radius: 50%;
+            position: absolute;
+            top: 120px;
+            left: 80px;
+        }
+
+        .owner-text {
+            border: 1px solid #FCD54C;
+            padding: 10px 20px;
+            margin-top: 50px;
+
+
+            .name {
+                font-family: 'Gilroy';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 20px;
+                margin-top: 30px;
+            }
+
+            .jobTitle {
+                color: white;
+                font-size: 12px;
+                line-height: 16px;
+            }
+
+            .text {
+
+                font-size: 12px;
+                line-height: 20px;
+            }
+
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .wrapper-owner {
+        height: 230px;
+        width: 250px;
+        border-radius: 8px;
+        padding: 20px 20px;
+        padding-top: 150px;
+        margin-bottom: 0;
+        font-weight: 400;        
+
+        .quotes {
+            font-weight: 600;
+            font-size: 100px;
+            line-height: 120px;
+            right: 50px;
+            top: 140px;
+        }
+
+        .image {
+            height: 80px;
+            border-radius: 50%;
+            top: 160px;
+            left: 70px;
+        }
+
+        .owner-text {
+            border: 1px solid #FCD54C;
+            padding: 10px 20px;
+            margin-top: 50px;
+
+
+            .name {
+                font-family: 'Gilroy';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 20px;
+                margin-top: 30px;
+            }
+
+            .jobTitle {
+                color: white;
+                font-size: 12px;
+                line-height: 16px;
+            }
+
+            .text {
+                margin-top: 13px;
+                margin-bottom: 10;
+                font-size: 12px;
+                line-height: 14px;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.pagination {
+    margin-top: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 20%;
+    gap: 25px;
+
+    .page-item {        
+            color: white;
+            text-decoration: none;
+            font-family: 'Gilroy';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;            
+        &:hover, :checked {
+            background-color: #FCD54C;
+            padding: 7px;
+        }
+       
+    }
+    
+    .page-active {
+        .page-item{
+        background-color: #FCD54C;
+        padding: 7px;
+        }
+    }   
+}
+
+// @media (max-width: 768px) {
+//     .pagination {    
+       
+//         .page-item:hover {
+//             background-color: #FCD54C;
+//             padding: 7px;
+//         }
+//     }
+// }

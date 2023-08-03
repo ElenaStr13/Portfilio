@@ -1,0 +1,261 @@
+footer {
+    font-family: 'WorkSans';
+    color: #E8E8E8;
+
+    img {
+        margin-bottom: 50px;
+    }
+
+
+    .footer-accordion {
+        //width: 100%;      
+        //margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-family: 'WorkSans';
+        font-weight: 400;
+        gap: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .lastNews {
+            //border-bottom: 1px solid #929292;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+
+            .footer-heading {
+                margin: 0;
+                margin-left: 20px;
+            }
+
+            .wrapper-content {
+                display: flex;
+                flex-direction: row;
+                margin: 0;
+                margin-left: 20px;
+                align-items: center;
+                gap: 200px;
+
+                .little-btn {
+                    height: 40px;
+                }
+
+                .footer-content {
+                    margin: 0;
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    p {
+                        margin: 0;
+
+                        width: 200px;
+                    }
+                }
+            }
+        }
+
+        section {
+            border-top: 1px solid #929292;
+            margin: 0;
+            width: 90%;
+            margin-left: 10px;
+        }
+
+        .accordion-heading {
+            display: block;
+            position: relative;
+            cursor: pointer;
+            padding: 10px 15px;
+            margin: 0;
+            background: #272727;
+            color: white;
+            font-size: 18px;
+        }
+
+        //.accordion-heading:after,
+        .accordion-heading:before {
+            content: ">";
+            position: absolute;
+            color: #FCD54C;
+            font-size: 20px;
+            width: 11px;
+            top: 50%;
+            right: 20px;
+            transition: all 0.1s;
+        }
+
+        .accordion-checkbox:checked~.accordion-heading:before {
+            transform: rotate(90deg);
+            opacity: 1;
+            transition: all 0.1s;
+        }
+
+        .accordion-heading:after {
+            transform: rotate(90deg);
+            transition: all 0.1s;
+        }
+
+        .accordion-checkbox:checked~.accordion-heading:after {
+            transform: rotate(180deg);
+        }
+
+        .accordion-checkbox {
+            display: none;
+            position: absolute;
+            left: -9999em;
+        }
+
+        .accordion-checkbox:checked~.accordion-content {
+            max-height: 1000px;
+            transition: all 2s;
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            padding: 0 15px;
+            font-size: 14px;
+            line-height: 160%;
+            transition: all 0.5s;
+        }
+
+        .footer-contact {
+            max-width: 200px;
+            min-width: 120px;
+
+            .footer-email {
+                margin-bottom: 75px;
+            }
+        }
+    }
+
+    .source {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 95px;
+        border-top: 1px solid #E8E8E8;
+        box-sizing: border-box;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        .footer-icons {
+            display: flex;
+            gap: 30px;
+        }
+
+        p {
+            text-align: left;
+            font-weight: 300;
+            font-size: 18px;
+            color: #E8E8E8
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    footer {
+        font-family: 'WorkSans';
+        color: #E8E8E8;
+
+        img {
+            margin-bottom: 50px;
+        }
+
+
+        .footer-accordion {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            font-family: 'WorkSans';
+            font-weight: 400;
+            gap: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            .lastNews {
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+
+                .footer-heading {
+                    margin: 0;
+                    margin-left: 20px;
+                }
+
+                .wrapper-content {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0;
+                    align-items: center;
+                    gap: 50px;
+
+                    .little-btn {
+                        height: 40px;
+                    }
+
+                    .footer-content {
+                        margin: 0;
+                        margin-top: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+
+                        p {
+                            margin: 0;
+
+                            width: 150px;
+                        }
+                    }
+                }
+            }
+
+            section {
+                border-top: 1px solid #929292;
+                margin: 0;
+                width: 90%;
+                margin-left: 10px;
+            }
+
+            .accordion-heading {
+                display: block;
+                position: relative;
+                cursor: pointer;
+                padding: 10px 15px;
+                margin: 0;
+                background: #272727;
+                color: white;
+                font-size: 18px;
+            }
+
+            .footer-contact {
+                width: 150px;
+
+                .footer-email {
+                    margin-bottom: 75px;
+                }
+            }
+        }
+
+        .source {
+            padding-left: 0;
+            flex-direction: column-reverse;
+            gap: 10px;          
+
+            p {
+                font-weight: 300;
+                font-size: 12px;
+                line-height: 15px;                
+            }
+
+            .footer-icons {
+                height: 5vh;
+            }
+        }
+    }
+}

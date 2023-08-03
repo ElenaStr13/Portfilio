@@ -1,0 +1,11 @@
+body {
+    $yellowColor: #FCD54C !global;
+}
+.nav {
+    color: white;
+}
+
+.menu-active {
+    color: $yellowColor;
+    border-bottom: 1px solid $yellowColor;
+}

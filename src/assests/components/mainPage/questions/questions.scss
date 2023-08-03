@@ -1,0 +1,121 @@
+.title-question {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 60px;
+    text-align: left;
+    margin-left: 455px;
+    color: white;
+}
+
+.accordion {
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'WorkSans';
+    font-weight: 400;
+    gap: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .lastNews {
+        border-bottom: 1px solid #929292;
+        padding-bottom: 40px;
+    }
+
+    section {
+
+        border-top: 1px solid #929292;
+    }
+
+    .accordion__heading {
+        display: block;
+        position: relative;
+        cursor: pointer;
+        padding: 10px 15px;
+        margin: 0;
+        background: #272727;
+        color: white;
+        font-size: 18px;
+    }
+
+    //.accordion__heading:after,
+    .accordion__heading:before {
+        content: ">";
+        position: absolute;
+        color: #FCD54C;
+        font-size: 20px;
+        width: 11px;
+        top: 50%;
+        right: 20px;
+        //transform: rotate(-45deg);       
+        //background: #FCD54C;
+        transition: all 0.1s;
+    }
+
+    .accordion__checkbox:checked~.accordion__heading:before {
+        transform: rotate(90deg);
+        opacity: 1;
+        transition: all 0.1s;
+    }
+
+    .accordion__heading:after {
+        transform: rotate(90deg);
+        transition: all 0.1s;
+    }
+
+    .accordion__checkbox:checked~.accordion__heading:after {
+        transform: rotate(180deg);
+    }
+
+    .accordion__checkbox {
+        display: none;
+        position: absolute;
+        left: -9999em;
+    }
+
+    .accordion__checkbox:checked~.accordion__content {
+        max-height: 1200px;
+        transition: all 2s;
+    }
+
+    .accordion__content {
+        max-height: 0;
+        overflow: hidden;
+        padding: 0 15px;
+        font-size: 14px;
+        line-height: 160%;
+        transition: all 0.5s;
+    }
+}
+
+@media (max-width: 768px) {
+    .title-question {
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 40px;
+        margin-left: 100px;
+    }
+
+    .accordion {
+        max-width: 700px;
+        font-weight: 200;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .accordion {
+        width: 300px;
+        .accordion__heading {         
+            font-size: 12px;
+        }
+        .accordion__content {
+            font-size: 10px;
+            line-height: 130%;
+
+        }
+    }
+}

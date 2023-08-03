@@ -1,0 +1,125 @@
+h2 {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.offers {
+    font-family: "WorkSans";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    $yellowColor: #FCD54C !global;
+
+    .offer {
+        display: flex;
+        flex-direction: column;
+        max-width: 420px;
+        min-width: 200px;
+        text-align: left;
+        margin-bottom: 40px;
+
+        & img:first-child {
+            width: 100%;
+        }
+
+        .offer-text {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            padding: 30px 40px;
+            box-sizing: border-box;
+            border: 1px solid $yellowColor;
+
+            & p:first-child {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                margin-bottom: 15px;
+                margin-left: 0;
+            }
+
+            .title-offer {
+                font-family: 'Gilroy';
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 35px;
+                margin-left: 0;
+            }
+
+            .text-offer {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #929292;
+                margin-top: 15px;
+                margin-bottom: 20px;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+                margin: 0;
+            }
+        }
+    }
+
+    .pages {
+        margin-top: 55px;
+    }
+}
+
+.offer-text:hover {
+    background-color: $yellowColor;
+    color: #272727;
+
+    .text-offer {
+        color: #272727;
+    }
+
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+
+    .offers {
+        width: 80%;
+
+        .offer {
+            width: 200px;
+
+            .offer-text {
+                padding: 10px 10px;
+
+                & p:first-child {
+                    font-size: 12px;
+                    line-height: 18px;
+                    margin-bottom: 15px;
+                    margin-left: 0;
+                }
+
+                .title-offer {
+                    font-size: 18px;
+                    line-height: 25px;
+                    margin-left: 0;
+                }
+
+                .text-offer {
+                    font-size: 12px;
+                    line-height: 18px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+
+            }
+        }
+    }
+}
